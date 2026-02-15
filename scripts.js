@@ -2,12 +2,12 @@
 const task1Title = prompt("Enter task 1 title:");
 const task1Description = prompt("Enter task 1 description:");
 
-// 1. Get the status and immediately make it lowercase
+// Get the status and immediately make it lowercase
 let task1Status = prompt(
   "Enter task 1 status (todo, doing, done):",
 ).toLowerCase();
 
-// 2. The "While" loop keeps running as long as the status is WRONG
+// The "While" loop keeps running as long as the status is WRONG
 while (
   task1Status !== "todo" &&
   task1Status !== "doing" &&
