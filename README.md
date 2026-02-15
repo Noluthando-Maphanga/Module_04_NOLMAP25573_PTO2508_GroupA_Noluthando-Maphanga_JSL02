@@ -50,3 +50,10 @@ A functional task entry system that ensures accurate data collection, validation
 - When there are no completed tasks:
 
   ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
+
+**Logic Implemented**
+
+-collects information from user using the prompt
+-validate the input by using the while loop and alerts the user if wrong information was input
+-the while loops runs as long as the information is incorrect
+-the console prints the done status for each task or encourages if none was completed.

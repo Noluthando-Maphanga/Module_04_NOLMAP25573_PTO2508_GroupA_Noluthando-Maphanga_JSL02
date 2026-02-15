@@ -1,4 +1,4 @@
-// --- TASK 1 ---
+// TASK 1
 const task1Title = prompt("Enter task 1 title:");
 const task1Description = prompt("Enter task 1 description:");
 
@@ -19,10 +19,11 @@ while (
   ).toLowerCase();
 }
 
-// --- TASK 2 ---
+// TASK 2
 const task2Title = prompt("Enter task 2 title:");
 const task2Description = prompt("Enter task 2 description:");
 
+//same as Task 1
 let task2Status = prompt(
   "Enter task 2 status (todo, doing, done):",
 ).toLowerCase();
